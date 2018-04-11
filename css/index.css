@@ -1,3 +1,21 @@
-img {
-  height: 500px;
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.top-wrapper {
+  padding: 200px 0 500px 0;
+  text-align: center;
+  background-image: url("../top-background.jpg");
+  background-color: black;
+  background-size: cover;
+  color: white;
+}
+
+.top-wrapper h1 {
+  font-size: 100px;
+  letter-spacing: 10px;
+}
+
+.top-wrapper h2 {
+  font-size: 30px;
 }
