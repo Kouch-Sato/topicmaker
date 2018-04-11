@@ -45,9 +45,44 @@ nav {
 }
 
 .about-wrapper {
-  height: 400px;
+  height: 700px;
   text-align: center;
 }
+
+.about-wrapper h1 {
+  letter-spacing: 2px;
+  width: 600px;
+  padding: 30px;
+  margin: 50px auto;
+  border-bottom: 1px solid gray;
+}
+
+.point {
+  width: 25%;
+  float: left;
+}
+
+.point-wrapper {
+  width: 90%;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  margin: 50px 0;
+  height: 250px;
+}
+
+.point-wrapper .point-header {
+  font-size: 20px;
+  padding: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.point-wrapper p {
+  font-size: 18px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
 
 .mission-wrapper {
   height: 500px;
