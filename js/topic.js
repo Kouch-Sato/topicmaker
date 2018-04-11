@@ -1,15 +1,4 @@
 $(function(){
-  var array1 = ["water", "life", "dream", "fire", "love", 
-  "marrige", "death", "dark", "glass", "coffee", "dog", "innovation",
-  "TV"];
-
-  var array2 = ["refugee", "tax increase"];
-  
-  var array3 = ["If you are president of America.", 
-  "If you have 1 million yen, what would you do?"];
-
-  var array4 = ["aaaaa"];
-
   $("#btn1").click(function(){
     var n = Math.floor(Math.random() * array1.length);
     $("#result1").text(array1[n]);
