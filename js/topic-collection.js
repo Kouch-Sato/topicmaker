@@ -1,4 +1,4 @@
-// this file is for arraies of topics
+﻿// this file is for arraies of topics
 
 // one word
 var array1 = [
