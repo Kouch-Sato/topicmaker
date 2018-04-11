@@ -45,7 +45,8 @@ var array1 = [
 "	Stress	",
 "	Identity	",
 "	Inferiority	",
-" TV "
+" TV ",
+"Kouch Sato"
 ];
 
 
@@ -162,5 +163,6 @@ var array4 = [
   "	What is a good leader? Please tell us your opinion.	",
   "	If you started a new business for the Tokyo Olympics, what kind of business would you start?	",
   "	If your child were to ask you what the most important thing in life is, how would you answer?	",
-  "	If you get one hundred million yen, what would you do?	"
+  "	If you get one hundred million yen, what would you do?	",
+  "If Mr.Kouch confessed his love to you, what would you say to him?" 
 ];
