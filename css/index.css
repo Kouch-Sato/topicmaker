@@ -69,6 +69,19 @@ nav {
 }
 
 .contact-wrapper { 
-  height: 200px;
+  height: 500px;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-wrapper h1 {
+  letter-spacing: 5px;
+  width: 500px;
+  padding: 30px;
+  margin: 50px auto;
+  border-bottom: 1px solid gray;
+}
+
+.contact-wrapper h4 {
+  padding: 20px 0;
 }
