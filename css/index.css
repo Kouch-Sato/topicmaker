@@ -2,8 +2,27 @@ body {
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
+
+nav {
+  height: 80px;
+  opacity: 0.6;
+  
+}
+
+.navbar-header a {
+  font-size: 60px;
+  
+  
+}
+
+.navbar-right li {
+  font-size: 40px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
 .top-wrapper {
-  padding: 200px 0 500px 0;
+  padding: 300px 0 300px 0;
   text-align: center;
   background-image: url("../top-background.jpg");
   background-color: black;
@@ -14,6 +33,7 @@ body {
 .top-wrapper h1 {
   font-size: 100px;
   letter-spacing: 10px;
+  color: white;
 }
 
 .top-wrapper h2 {
