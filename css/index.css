@@ -2,11 +2,9 @@ body {
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
-
 nav {
   height: 80px;
   opacity: 0.6;
-  
 }
 
 .navbar-header a {
@@ -52,9 +50,22 @@ nav {
 }
 
 .mission-wrapper {
-  height: 400px;
+  height: 500px;
   background: black;
   text-align: center;
+  color: white;
+}
+
+.mission-wrapper h1 {
+  letter-spacing: 5px;
+  width: 500px;
+  padding: 30px;
+  margin: 50px auto;
+  border-bottom: 1px solid gray;
+}
+
+.mission-wrapper h4 {
+  margin: 50px auto;
 }
 
 .contact-wrapper { 
