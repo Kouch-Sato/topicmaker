@@ -1,7 +1,6 @@
 $(function(){
-  var setSecond = 100;
+  var setSecond = 640;
   var time = setSecond;
-  var setPause = setSecond;
   var timerID;
 
   function textDisplay(){
@@ -10,7 +9,6 @@ $(function(){
 
   function countDown(){
     time--;
-    setPause = time;
     textDisplay();
   }
 
@@ -32,7 +30,6 @@ $(function(){
   textDisplay();
 
   $("#startBtn").click(function(){
-    time = setPause;
     textDisplay();
     timerStart();
   });
@@ -41,4 +38,9 @@ $(function(){
     countStop();
   });
 
+  $("#resetBtn").click(function(){
+    countStop();
+    time = setSecond;
+    textDisplay();
+  });
 });
