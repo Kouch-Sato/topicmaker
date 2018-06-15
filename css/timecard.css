@@ -7,5 +7,15 @@ h1 {
   font-size: 400px;
   text-align: center;
   border: 1px solid black;
-  vertical-align: text-top;
+}
+
+#timer {
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn-wrapper button {
+  padding: 10px;
+  font-size: 40px;
+  margin: 10px auto;
 }

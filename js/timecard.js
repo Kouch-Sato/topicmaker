@@ -1,5 +1,5 @@
 $(function(){
-  var setSecond = 480;
+  var setSecond = 2;
   var time = setSecond;
   var timerID;
   var minutes;
@@ -10,6 +10,14 @@ $(function(){
     minutes = Math.floor(time / 60);
     $("#timer").text(minutes + ":" + seconds);
     $("#time-card").text(minutes);
+    if (time == 0)
+      $("#time-card").text("END");
+    else if (time < 15)
+      $("#time-card").text("0");
+    else if (time < 30)
+      $("#time-card").text("1/4");
+    else if (time < 60)
+      $("#time-card").text("1/2");
   }
 
   function countDown(){
