@@ -1,4 +1,11 @@
 h1 {
   text-align: center;
-  margin: 50px 0;
+  margin-top: 50px;
+}
+
+#time-card {
+  font-size: 400px;
+  text-align: center;
+  border: 1px solid black;
+  vertical-align: text-top;
 }
