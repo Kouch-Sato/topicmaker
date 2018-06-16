@@ -14,8 +14,17 @@ h1 {
   text-align: center;
 }
 
-.btn-wrapper button {
-  padding: 10px;
+.btn {
+  padding: 5px;
   font-size: 40px;
-  margin: 10px auto;
+}
+
+#setSecond {
+  padding: 33px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.button-wapper {
+  padding: 10px;
 }

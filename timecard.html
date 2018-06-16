@@ -22,14 +22,26 @@
       <h1>Time Card</h1>
       <div id="time-card"></div>
       <div id="timer"></div>
-      <div class="btn-wrapper">
-        <button id="startBtn" class="btn btn-success btn-block">Start!</button> 
+      <div class="row">
+        <div class="col-sm-12 button-wapper">
+          <button id="startBtn" class="btn btn-success btn-block">Start!</button> 
+        </div>  
       </div>
-      <div class="btn-wrapper">
-        <button id="stopBtn" class="btn btn-block btn-warning">Stop</button> 
+      <div class="row">
+        <div class="col-sm-6 button-wapper">
+          <button id="stopBtn" class="btn btn-warning btn-block">Stop</button> 
+        </div>
+        <div class="col-sm-6 button-wapper">
+          <button id="resetBtn" class="btn btn-danger btn-block">Reset</button> 
+        </div>
       </div>
-      <div class="btn-wrapper">
-        <button id="resetBtn" class="btn btn-block btn-danger">Reset</button> 
+      <div class="row form-inline">
+        <div class="col-sm-6 button-wapper">
+          <input type="text" id="setSecond" class="form-control" placeholder="秒数を入力してください">
+        </div>  
+        <div class="col-sm-6 button-wapper">
+          <button id="changeSecond" class="btn btn-danger btn-block">Change</button> 
+        </div>  
       </div>
     </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

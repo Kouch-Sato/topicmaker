@@ -1,5 +1,5 @@
 $(function(){
-  var setSecond = 2;
+  var setSecond = 100;
   var time = setSecond;
   var timerID;
   var minutes;
@@ -52,6 +52,14 @@ $(function(){
   });
 
   $("#resetBtn").click(function(){
+    countStop();
+    time = setSecond;
+    textDisplay();
+  });
+
+  $("#changeSecond").click(function(){
+    setSecond = $("#setSecond").val();
+    console.log(setSecond);
     countStop();
     time = setSecond;
     textDisplay();
