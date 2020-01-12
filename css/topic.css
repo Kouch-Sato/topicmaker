@@ -4,20 +4,48 @@ body {
 }
 
 h1 {
-  text-align: center;
-  margin: 50px 0;
+  font-size: 90px;
 }
 
 .topic {
   font-size: 48px;
   border: 1px solid white;
   padding: 20px;
-  margin: 20px auto;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .btn-wrapper button {
   padding: 10px;
   font-size: 40px;
   margin: 10px auto;
+}
+
+.topic-container {
+  margin: 0 20px;
+}
+
+.btn-wrapper button {
+  padding: 30px 10px;
+  font-size: 50px;
+}
+
+.btn-wrapper {
+  margin-bottom: 20px;
+}
+
+
+.topic-footer {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.topic-title {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.topic-title p {
+  font-size: 30px;
 }

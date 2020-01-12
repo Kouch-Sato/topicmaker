@@ -18,8 +18,11 @@
     </script>
   </head>
   <body>
-    <div class="container">
-      <h1>Topic Maker ~Randam Mode~</h1>
+    <div class="topic-container">
+      <div class="topic-title">
+        <h1>Topic Maker</h1>
+        <p>〜エクステンポマスターへの道〜</p>
+      </div>
       <div class="topics">
         <p class="topic" id="result1">One Word</p>
         <p class="topic" id="result2">Social</p>
@@ -27,20 +30,25 @@
         <p class="topic" id="result4">Situation</p>
       </div>
       <div class="btn-wrapper">
-        <button id="btn1" class="btn btn-primary btn-block">One Word</button>
+        <button id="btn1" class="btn btn-primary btn-block topic-btn">One Word</button>
       </div>
-
       <div class="btn-wrapper">
         <button id="btn2" class="btn btn-warning btn-block">Social</button>
       </div>
-
       <div class="btn-wrapper">
         <button id="btn3" class="btn btn-info btn-block">Proverb</button> 
       </div>
-
       <div class="btn-wrapper">
         <button id="btn4" class="btn btn-success btn-block">Situation</button> 
       </div>
+    </div>
+    <div class="topic-footer">
+      開発：佐藤航智（東京大学ESS OB）
+      <p>
+        バグ報告・ご要望などは
+        <a href="https://twitter.com/Iamkouch">Twitter</a>
+        まで！
+      </p>
     </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="js/topic-collection.js" charaset="utf-8"></script>
